@@ -1,0 +1,16 @@
+<% if @robot.errors.any?  %>
+      <ul>
+        <% @robot.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+        <% end %>
+      </ul>
+    <% end %>
+
+<%= form_for @robot do |f| %>
+      <p><%= f.label :name %></p>
+      <%= f.text_field :name %><br/><br>
+      <p><%= f.label :ability %></p>
+      <%= f.collection_select :ability_id, Ability.all, :id, :name, prompt:true %>
+      <br/><br>
+    <%= f.submit %><br>
+  <% end %>

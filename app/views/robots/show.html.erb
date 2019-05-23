@@ -1,0 +1,11 @@
+<br>
+<p>Robot Name:</p> <h1><%= @robot.name %></h1><br>
+<img src= <%= @robot.image_url %>/><br>
+<% @abilities.find do |ability| %>
+<% if ability.id == @robot.ability_id %><br>
+<p>Robot Ability:</p> <h2><%=link_to ability.name, ability_path(ability.id) %></h2>
+<br><br>
+<% end %>
+<% end %>
+<%= link_to "Edit", edit_robot_path %> //
+<%= link_to "Destroy", robot_path(@robot.id), method: "DELETE" %>

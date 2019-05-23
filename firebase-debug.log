@@ -1,0 +1,21 @@
+[debug] [2019-05-23T21:03:29.084Z] ----------------------------------------------------------------------
+[debug] [2019-05-23T21:03:29.087Z] Command:       /Users/db/.nvm/versions/node/v12.2.0/bin/node /Users/db/.nvm/versions/node/v12.2.0/bin/firebase init
+[debug] [2019-05-23T21:03:29.087Z] CLI Version:   6.10.0
+[debug] [2019-05-23T21:03:29.087Z] Platform:      darwin
+[debug] [2019-05-23T21:03:29.087Z] Node Version:  v12.2.0
+[debug] [2019-05-23T21:03:29.088Z] Time:          Thu May 23 2019 15:03:29 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-05-23T21:03:29.088Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-23T21:03:29.099Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-23T21:03:29.100Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/db/Documents/Dev/challenges/mod2/denver-mod-2-code-challenge-mod-2-code-challenge-1558558167
+

@@ -1,0 +1,4 @@
+<h1> Robots that Match Your Search</h1>
+<% @robots.each do |robot| %>
+<li>Robot Name: <%=link_to robot.name, robot_path(robot.id) %></li>
+<% end %>

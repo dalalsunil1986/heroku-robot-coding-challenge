@@ -1,0 +1,12 @@
+<h1>All Abilities</h1>
+
+<ul>
+  <% @abilities.each do |ability| %>
+    <li>
+      <%= link_to ability.name, ability_path(ability.id) %>
+      <br>
+      Description: <%= ability.description %>
+    </li>
+    <br>
+  <% end %>
+</ul>

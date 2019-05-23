@@ -1,0 +1,16 @@
+<h1>About this Ability</h1>
+<p>Ability Name:</p>
+<li> <%= @ability.name %> </li>
+<p>Ability Description:</p>
+<li>  <%= @ability.description %> </li>
+<p>Robots With This Ability:</p>
+<% arr = []  %>
+<% @robots.each do |robot| %>
+
+  <% if robot.ability_id == @ability.id %>
+      <% arr << robot %>
+    <% end %>
+  <% end %>
+<% arr.each do |robot| %>
+<li><%=link_to robot.name, robot_path(robot.id) %></li>
+<% end %>

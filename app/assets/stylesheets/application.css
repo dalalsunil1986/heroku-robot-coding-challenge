@@ -1,0 +1,115 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html {
+  background-image: url("https://media.giphy.com/media/Y0cKnGMCBTNTi/giphy.gif");
+  background-repeat: repeat;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+   background-color: rgba(0,0,0,.5);
+   margin-left: 50px;
+   margin-top: 30px;
+
+}
+
+ h1 {
+ color: rgb(32, 44, 45);
+ text-shadow: rgb(128, 141, 147) 0px 1px, rgb(205, 210, 213) -1px 0px, rgb(128, 141, 147) -1px 2px, rgb(205, 210, 213) -2px 1px, rgb(128, 141, 147) -2px 3px, rgb(205, 210, 213) -3px 2px, rgb(128, 141, 147) -3px 4px, rgb(205, 210, 213) -4px 3px, rgb(128, 141, 147) -4px 5px, rgb(205, 210, 213) -5px 4px, rgb(128, 141, 147) -5px 6px, rgb(205, 210, 213) -6px 5px, rgb(128, 141, 147) -6px 7px, rgb(205, 210, 213) -7px 6px, rgb(128, 141, 147) -7px 8px, rgb(205, 210, 213) -8px 7px;
+ --darkreader-inline-color:#d9d6d1;
+ --darkreader-inline-bgimage: initial;
+ --darkreader-inline-bgcolor:#181a1b;
+ font-family: Tahoma, Geneva, sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+  word-spacing: -5px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+ }
+
+ p {
+   color: rgb(255, 255, 255);
+   text-shadow: rgb(255, 255, 255) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 15px, rgb(73, 255, 24) 0px 0px 20px, rgb(73, 255, 24) 0px 0px 30px, rgb(73, 255, 24) 0px 0px 40px, rgb(73, 255, 24) 0px 0px 55px, rgb(73, 255, 24) 0px 0px 75px;
+   --darkreader-inline-color:#ffffff;
+   --darkreader-inline-bgimage: initial;
+   --darkreader-inline-bgcolor:#212325;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   letter-spacing: -0.6px;
+   word-spacing: -1px;
+   color: #000000;
+   font-weight: 700;
+   text-decoration: none;
+   font-style: normal;
+   font-variant: normal;
+   text-transform: none;
+}
+
+a:link {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+letter-spacing: 1.2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(232, 230, 227);
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+text-shadow: rgb(255, 255, 255) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, rgb(255, 255, 255) 0px 0px 15px, rgb(255, 45, 149) 0px 0px 20px, rgb(255, 45, 149) 0px 0px 30px, rgb(255, 45, 149) 0px 0px 40px, rgb(255, 45, 149) 0px 0px 50px, rgb(255, 45, 149) 0px 0px 75px;
+--darkreader-inline-color:#ffffff;
+--darkreader-inline-bgimage: initial;
+--darkreader-inline-bgcolor:#303336;
+}
+
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  word-spacing: 0px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none solid rgb(232, 230, 227);
+  font-style: normal;
+  font-variant: normal;
+  /* text-transform: uppercase; */
+}
